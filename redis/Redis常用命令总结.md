@@ -1,6 +1,6 @@
 [TOC]
 
-# Redis的使用
+> 本篇文章已保存到 [GitHub](https://github.com/jixiaocan/learn-notes/tree/master/redis) 上，欢迎下载。
 
 ## Redis 介绍
 
@@ -8,7 +8,7 @@
 
 Redis（即 Remote Dictionary Server）是一个由Salvatore Sanfilippo写的key-value存储系统，它是一个性能强劲的、使用内存存储的非关系数据库，它可以存储键和 5 种（字符串、列表、集合、散列表、有序集合）不同类型的值之间的映射，可以将存储在内存的数据持久化到硬盘，可以使用复制特性来扩展读性能，还可以使用客户端分片（client-side sharding）来扩展写性能。
 
-[这里](http://try.redis.io/)有一个在线教程，帮你快速熟悉 Redis 的常用数据类型和命令。
+> [这里](http://try.redis.io/)有一个在线教程，帮你快速熟悉 Redis 的常用数据类型和命令。
 
 ## Redis 特点
 Redis 与其他 key-value 缓存产品有以下三个特点：
